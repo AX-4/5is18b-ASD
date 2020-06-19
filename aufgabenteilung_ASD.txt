@@ -2,3 +2,7 @@ Adhurim Xhelili: Repository erstellung, Memberlist.txt, aufgabenteilung_ASD.txt
 Daniel Löffler: Java_File_IO_Examples
 Adhurim Xhelili: Java_JDBC_Examples
 Sayaanthan Nanthakumar: Java_Sort_Examples
+Daniel Löffler: MyFilteredFileList.java
+Adhurim Xhelili: MyBatchCallableStatement.java
+Sayaanthan Nanthakumar: MyQuickSort.java
+Adhurim Xhelili, Daniel Löffler, Sayaanthan Nanthakumar: MyPreparedStatement.java
