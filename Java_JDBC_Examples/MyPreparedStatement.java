@@ -1,14 +1,14 @@
 package com.java2novice.jdbc;
- 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
- 
+
 public class MyPreparedStatement {
- 
+
     public static void main(String a[]){
-         
+
         Connection con = null;
         PreparedStatement prSt = null;
         try {
@@ -27,7 +27,7 @@ public class MyPreparedStatement {
             prSt.setInt(2, 5000);
             count = prSt.executeUpdate();
         } catch (ClassNotFoundException e) {
-            // TODO Auto-generated catch block
+            // TODO Auto-generated catch block Adhurim Xhelili
             e.printStackTrace();
         } catch (SQLException e) {
             // TODO Auto-generated catch block
