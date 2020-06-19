@@ -6,3 +6,5 @@ Daniel Löffler: MyFilteredFileList.java
 Adhurim Xhelili: MyBatchCallableStatement.java
 Sayaanthan Nanthakumar: MyQuickSort.java
 Adhurim Xhelili, Daniel Löffler, Sayaanthan Nanthakumar: MyPreparedStatement.java
+Adhurim Xhelili, Daniel Löffler, Sayaanthan Nanthakumar: MyQueryUpdate.java
+Daniel Löffler: Email versendet
