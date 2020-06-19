@@ -30,7 +30,7 @@ public class MyPreparedStatement {
             // TODO Auto-generated catch block Adhurim Xhelili
             e.printStackTrace();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+            // TODO Auto-generated catch block Nanthakumar
             e.printStackTrace();
         } finally{
             try{
