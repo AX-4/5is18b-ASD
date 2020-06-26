@@ -1,0 +1,84 @@
+2020-06-26T09:08:56.024Z - info: [ui] [AppStore] loading 3 repositories from store
+2020-06-26T09:08:56.027Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-26T09:08:56.824Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-26T09:08:56.825Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-26T09:08:57.222Z - info: [ui] Stats reported.
+2020-06-26T09:08:58.569Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.776s)
+2020-06-26T09:09:19.041Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.449s)
+2020-06-26T09:09:48.733Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - AX-4 (has token)
+2020-06-26T09:09:50.573Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.584s)
+2020-06-26T09:10:57.169Z - warn: [ui] fetchRepository: 'AX-4/EchoServer' returned a 404
+2020-06-26T09:10:57.169Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-26T09:10:58.106Z - error: [ui] `git rev-list --left-right --count f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7
+
+2020-06-26T09:10:59.924Z - info: [ui] Background fetch for 3 repositories took 3.765sec
+2020-06-26T09:26:00.482Z - warn: [ui] fetchRepository: 'AX-4/EchoServer' returned a 404
+2020-06-26T09:26:00.482Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-26T09:26:02.423Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.814s)
+2020-06-26T09:26:02.424Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/AX-4/EchoServer.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2020-06-26T09:26:04.093Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Object.t.parsedResponse (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\http.ts:175:4)
+    at x.fetchPushControl (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\api.ts:844:14)
+    at Xe.refreshBranchProtectionState (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:895:29)
+    at C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:4133:9
+    at Xe.withPushPullFetch (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:3728:7)
+    at Xe.performFetch (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:4095:5)
+    at Xe.refreshIndicatorForRepository (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:2876:7)
+    at Xe.refreshAllSidebarIndicators (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:2829:7)
+2020-06-26T09:26:04.769Z - error: [ui] `git rev-list --left-right --count f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7
+
+2020-06-26T09:26:06.230Z - info: [ui] Background fetch for 3 repositories took 6.290sec
+2020-06-26T09:41:00.329Z - warn: [ui] fetchRepository: 'AX-4/EchoServer' returned a 404
+2020-06-26T09:41:00.329Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-26T09:41:02.221Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.734s)
+2020-06-26T09:41:02.224Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/AX-4/EchoServer.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2020-06-26T09:41:02.616Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Object.t.parsedResponse (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\http.ts:175:4)
+    at x.fetchPushControl (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\api.ts:844:14)
+    at Xe.refreshBranchProtectionState (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:895:29)
+    at C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:4133:9
+    at Xe.withPushPullFetch (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:3728:7)
+    at Xe.performFetch (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:4095:5)
+    at Xe.refreshIndicatorForRepository (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:2876:7)
+    at Xe.refreshAllSidebarIndicators (C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\stores\app-store.ts:2829:7)
+2020-06-26T09:41:03.346Z - error: [ui] `git rev-list --left-right --count f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7
+
+2020-06-26T09:41:05.275Z - info: [ui] Background fetch for 3 repositories took 5.334sec
+2020-06-26T09:41:23.468Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.442s)
+2020-06-26T12:36:43.370Z - info: [ui] [AppStore] loading 3 repositories from store
+2020-06-26T12:36:43.372Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-26T12:36:44.904Z - info: [ui] launching: 2.5.3 (Windows 10.0.18363)
+2020-06-26T12:36:44.905Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T12:36:46.095Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.686s)
+2020-06-26T12:37:07.646Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.902s)
+2020-06-26T12:38:44.574Z - warn: [ui] fetchRepository: 'AX-4/EchoServer' returned a 404
+2020-06-26T12:38:44.575Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-26T12:38:45.709Z - error: [ui] `git rev-list --left-right --count f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7 --` exited with an unexpected code: 128.
+stderr:
+fatal: Invalid symmetric difference expression f1b039d7218c868ec46163c3e6555a036860c437...7773fb604dd14e579d143e5315a5b956a11a3ad7
+
+2020-06-26T12:38:47.378Z - info: [ui] Background fetch for 3 repositories took 3.781sec
+2020-06-26T12:44:34.617Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - AX-4 (has token)
+2020-06-26T12:44:36.816Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.124s)
+2020-06-26T12:44:40.826Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - AX-4 (has token)
+2020-06-26T12:44:42.365Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.399s)
+2020-06-26T12:44:46.290Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - AX-4 (has token)
+2020-06-26T12:44:47.958Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.596s)

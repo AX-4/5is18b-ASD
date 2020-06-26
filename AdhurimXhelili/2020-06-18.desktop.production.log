@@ -1,0 +1,37 @@
+2020-06-18T18:14:34.183Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-18T18:14:34.210Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-18T18:14:34.875Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-18T18:14:34.876Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-18T18:14:43.738Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-18T18:14:43.741Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-18T18:14:44.298Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-18T18:14:44.299Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-18T18:15:15.529Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/AX-4/EchoServer.git - AX-4 (has token)
+2020-06-18T18:15:21.982Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/AX-4/EchoServer.git C:\Users\Adhurim\Documents\GitHub\EchoServer (took 6.289s)
+2020-06-18T18:15:22.102Z - info: [ui] [AppStore] adding repository at C:\Users\Adhurim\Documents\GitHub\EchoServer to store
+2020-06-18T18:15:30.105Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-18T18:15:30.807Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ax-4/EchoServer' took 0.702s
+2020-06-18T18:16:08.884Z - info: [main] opening in browser: https://github.com/AX-4/EchoServer
+2020-06-18T18:16:22.711Z - info: [main] Received possible protocol arguments: 5
+2020-06-18T18:16:22.712Z - info: [main] Processing protocol url
+2020-06-18T18:16:22.842Z - info: [main] Received possible protocol arguments: 3
+2020-06-18T18:16:22.844Z - info: [main] Processing protocol url
+2020-06-18T18:16:22.888Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-18T18:16:23.616Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-18T18:16:25.409Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.350s)
+2020-06-18T18:16:29.935Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - AX-4 (has token)
+2020-06-18T18:16:30.466Z - info: [ui] [Timing] Action 'checkout branch from list' for 'ax-4/EchoServer' took 0.527s
+2020-06-18T19:23:41.074Z - info: [main] Received possible protocol arguments: 3
+2020-06-18T19:23:41.084Z - error: [main] Malformed launch arguments received: C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--allow-file-access-from-files,--original-process-start-time=13236981816081093
+2020-06-18T19:23:44.318Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-18T19:23:44.319Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-18T19:23:45.350Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-18T19:23:45.350Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-18T19:23:47.648Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.329s)
+2020-06-18T19:24:13.472Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-18T19:24:16.914Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.552s)
+2020-06-18T19:24:40.103Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-18T19:24:40.105Z - info: [ui] [AppStore] found account: AX-4 (AX-4)
+2020-06-18T19:24:40.307Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-18T19:24:40.671Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-18T19:24:40.672Z - info: [ui] execPath: 'C:\Users\Adhurim\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
