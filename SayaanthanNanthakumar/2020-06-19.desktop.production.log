@@ -1,0 +1,209 @@
+2020-06-19T12:16:43.046Z - info: [main] Received possible protocol arguments: 2
+2020-06-19T12:16:43.048Z - error: [main] Malformed launch arguments received: C:\Users\Sayaanthan\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-19T12:16:43.744Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T12:16:43.764Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:16:43.768Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:16:43.897Z - info: [ui] launching: 2.5.2 (Windows 10.0.17763)
+2020-06-19T12:16:43.897Z - info: [ui] execPath: 'C:\Users\Sayaanthan\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:16:43.906Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:16:44.145Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:16:44.827Z - info: [ui] Opt in reported.
+2020-06-19T12:16:45.100Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.261s)
+2020-06-19T12:16:50.590Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:16:50.593Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:16:50.595Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=cce4cc85-de0b-45b5-b0d7-60c8aa9657c5
+2020-06-19T12:16:50.596Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T12:16:50.742Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:16:58.682Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T12:16:58.682Z - info: [main] Processing protocol url
+2020-06-19T12:16:58.696Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T12:16:58.702Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:16:58.852Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T12:16:58.853Z - info: [main] Processing protocol url
+2020-06-19T12:16:59.665Z - info: [ui] [SignInStore] account resolved
+2020-06-19T12:16:59.668Z - info: [ui] [AppStore] adding account Modul143 (Modul143) to store
+2020-06-19T12:16:59.683Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-19T12:16:59.810Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:17:00.055Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:17:15.039Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-19T12:17:17.490Z - info: [ui] Opt in reported.
+2020-06-19T12:17:17.500Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:17:41.525Z - info: [ui] [AppStore] adding repository at C:\Users\Sayaanthan\Documents\GitHub\EchoServer to store
+2020-06-19T12:19:06.884Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master --set-upstream --progress (took 5.810s)
+2020-06-19T12:19:10.030Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.055s)
+2020-06-19T12:22:57.309Z - info: [ui] [Timing] Action 'create commit' for 'modul143/EchoServer' took 1.671s
+2020-06-19T12:23:06.576Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: EchoServer - Modul143 (has token)
+2020-06-19T12:23:12.052Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.263s)
+2020-06-19T12:23:15.196Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.047s)
+2020-06-19T13:26:13.457Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T13:26:13.458Z - info: [ui] [AppStore] found account: Modul143 (Modul143)
+2020-06-19T13:26:14.359Z - info: [ui] launching: 2.5.2 (Windows 10.0.17763)
+2020-06-19T13:26:14.359Z - info: [ui] execPath: 'C:\Users\Sayaanthan\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T13:26:14.802Z - info: [ui] Stats reported.
+2020-06-19T13:26:15.650Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.311s)
+2020-06-19T13:26:19.168Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.958s)
+2020-06-19T13:27:54.680Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T13:27:54.680Z - info: [main] Processing protocol url
+2020-06-19T13:27:54.689Z - warn: [ui] Open Repository from URL failed, did not find or clone repository: https://github.com/AX-4/5is18b-ASD - payload: {"branch":null,"filepath":null,"name":"open-repository-from-url","pr":null,"url":"https://github.com/AX-4/5is18b-ASD"}
+2020-06-19T13:27:54.805Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T13:27:54.806Z - info: [main] Processing protocol url
+2020-06-19T13:28:04.504Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/AX-4/5is18b-ASD.git - Modul143 (has token)
+2020-06-19T13:28:08.137Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/AX-4/5is18b-ASD.git C:\Users\Sayaanthan\Documents\GitHub\5is18b-ASD (took 3.428s)
+2020-06-19T13:28:08.217Z - info: [ui] [AppStore] adding repository at C:\Users\Sayaanthan\Documents\GitHub\5is18b-ASD to store
+2020-06-19T13:28:08.659Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T13:28:14.941Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:28:16.468Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T13:28:16.790Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.612s)
+2020-06-19T13:28:17.235Z - info: [ui] Background fetch for 2 repositories took 3.661sec
+2020-06-19T13:31:08.303Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 1.582s
+2020-06-19T13:32:45.299Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:32:48.214Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 2.678s)
+2020-06-19T13:32:48.218Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/AX-4/5is18b-ASD.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AX-4/5is18b-ASD.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-19T13:32:50.183Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:32:52.348Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.940s)
+2020-06-19T13:32:56.421Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:32:58.717Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.007s)
+2020-06-19T13:33:02.947Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:33:09.006Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.887s)
+2020-06-19T13:33:11.119Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.026s)
+2020-06-19T13:43:02.263Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 1.604s
+2020-06-19T13:43:03.485Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:43:05.724Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 2.043s)
+2020-06-19T13:43:05.726Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/AX-4/5is18b-ASD.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AX-4/5is18b-ASD.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-19T13:43:07.218Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:43:09.611Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.159s)
+2020-06-19T13:43:11.776Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:43:13.999Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.842s)
+2020-06-19T13:43:18.724Z - info: [ui] Background fetch for 2 repositories took 1.458sec
+2020-06-19T13:43:22.183Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:43:28.303Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.948s)
+2020-06-19T13:43:30.371Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.951s)
+2020-06-19T13:46:52.874Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 1.142s
+2020-06-19T13:46:54.477Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:46:59.990Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.320s)
+2020-06-19T13:47:01.838Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.748s)
+2020-06-19T13:53:13.364Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 1.094s
+2020-06-19T13:53:17.179Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:53:19.978Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 2.625s)
+2020-06-19T13:53:19.979Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/AX-4/5is18b-ASD.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AX-4/5is18b-ASD.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-19T13:53:22.993Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:53:25.709Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.527s)
+2020-06-19T13:53:28.908Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:53:31.588Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.369s)
+2020-06-19T13:53:31.593Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T13:56:20.593Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:56:22.941Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:56:23.151Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:56:30.404Z - error: [ui] Unexpected error from git operations in getConflictDetails
+Error: Git returned an unexpected exit code '128' which should be handled by the caller.'
+    at ChildProcess.<anonymous> (C:\Users\Sayaanthan\AppData\Local\GitHubDesktop\app-2.5.2\webpack:\app\src\lib\git\spawn.ts:111:15)
+    at ChildProcess.emit (events.js:203:13)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+2020-06-19T13:56:36.128Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:56:38.496Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.101s)
+2020-06-19T13:56:38.498Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T13:57:09.829Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T13:57:38.854Z - error: [ui] `git merge --abort` exited with an unexpected code: 128.
+stderr:
+fatal: There is no merge to abort (MERGE_HEAD missing).
+
+(The error was parsed as 36: There is no merge in progress, so there is nothing to abort.)
+2020-06-19T13:57:41.963Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:57:44.190Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.886s)
+2020-06-19T13:57:44.191Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T13:57:47.813Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:57:50.128Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T13:58:19.074Z - info: [ui] Background fetch for 2 repositories took 1.811sec
+2020-06-19T13:59:15.716Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:59:18.067Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.058s)
+2020-06-19T13:59:18.072Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+stderr:
+remote: Enumerating objects: 12, done.        
+remote: Counting objects:   8% (1/12)        remote: Counting objects:  16% (2/12)        remote: Counting objects:  25% (3/12)        remote: Counting objects:  33% (4/12)        remote: Counting objects:  41% (5/12)        remote: Counting objects:  50% (6/12)        remote: Counting objects:  58% (7/12)        remote: Counting objects:  66% (8/12)        remote: Counting objects:  75% (9/12)        remote: Counting objects:  83% (10/12)        remote: Counting objects:  91% (11/12)        remote: Counting objects: 100% (12/12)        remote: Counting objects: 100% (12/12), done.        
+remote: Compressing objects:  50% (1/2)        remote: Compressing objects: 100% (2/2)        remote: Compressing objects: 100% (2/2), done.        
+remote: Total 6 (delta 4), reused 6 (delta 4), pack-reused 0        
+From https://github.com/AX-4/5is18b-ASD
+   6643b3a..f297f80  master     -> origin/master
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T13:59:29.780Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:59:31.997Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.029s)
+2020-06-19T13:59:32.005Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T13:59:39.344Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T13:59:41.572Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.917s)
+2020-06-19T13:59:41.572Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-19T14:00:33.676Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 1.591s
+2020-06-19T14:00:37.810Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T14:00:43.558Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.611s)
+2020-06-19T14:00:46.448Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.764s)
+2020-06-19T14:00:55.029Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - Modul143 (has token)
+2020-06-19T14:00:57.386Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.123s)
