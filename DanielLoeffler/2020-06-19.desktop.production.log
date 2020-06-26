@@ -1,0 +1,134 @@
+2020-06-19T12:24:12.048Z - info: [main] Received possible protocol arguments: 2
+2020-06-19T12:24:12.051Z - error: [main] Malformed launch arguments received: C:\Users\danie\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-19T12:24:12.051Z - info: [main] Received possible protocol arguments: 4
+2020-06-19T12:24:12.051Z - error: [main] Malformed launch arguments received: C:\ProgramData\danie\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun,--allow-file-access-from-files,--original-process-start-time=13237043051695238
+2020-06-19T12:24:12.195Z - info: [main] Received possible protocol arguments: 2
+2020-06-19T12:24:12.198Z - error: [main] Malformed launch arguments received: C:\ProgramData\danie\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-19T12:24:13.057Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-19T12:24:13.106Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:13.213Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:13.334Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:13.812Z - info: [ui] launching: 2.5.2 (Windows 10.0.18362)
+2020-06-19T12:24:13.812Z - info: [ui] execPath: 'C:\Users\danie\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T12:24:13.814Z - info: [ui] Opt in reported.
+2020-06-19T12:24:13.908Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:24:14.875Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.512s)
+2020-06-19T12:24:47.628Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-19T12:24:47.633Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-19T12:24:47.636Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=42037a41-4a3e-405f-ac31-cec8ddb2d636
+2020-06-19T12:24:47.637Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-19T12:24:48.190Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:13.516Z - info: [main] Received possible protocol arguments: 5
+2020-06-19T12:25:13.516Z - info: [main] Processing protocol url
+2020-06-19T12:25:13.529Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-19T12:25:13.533Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-19T12:25:13.620Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T12:25:13.622Z - info: [main] Processing protocol url
+2020-06-19T12:25:14.563Z - info: [ui] [SignInStore] account resolved
+2020-06-19T12:25:14.563Z - info: [ui] [AppStore] adding account danlff (danlff) to store
+2020-06-19T12:25:14.572Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-19T12:25:14.758Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:25:15.091Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-19T12:25:33.087Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-19T12:25:38.649Z - info: [ui] Opt in reported.
+2020-06-19T12:29:11.699Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-19T12:44:03.876Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/danlff/5is18b-DanielLoeffler.git - danlff (has token)
+2020-06-19T12:44:09.214Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/danlff/5is18b-DanielLoeffler.git C:\Users\danie\Documents\GitHub\5is18b-DanielLoeffler (took 5.048s)
+2020-06-19T12:44:09.466Z - info: [ui] [AppStore] adding repository at C:\Users\danie\Documents\GitHub\5is18b-DanielLoeffler to store
+2020-06-19T12:44:12.592Z - info: [ui] Executing getBranches: git for-each-ref --format=%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(objectname:short)%00%(author)%00%(committer)%00%(symref)%00%1F refs/heads refs/remotes (took 1.019s)
+2020-06-19T12:44:13.133Z - info: [ui] Executing getRemotes: git remote -v (took 1.260s)
+2020-06-19T12:44:13.216Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.199s)
+2020-06-19T12:44:13.217Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.290s)
+2020-06-19T12:44:13.905Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T12:49:17.074Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.966s)
+2020-06-19T13:17:55.894Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/AX-4/5is18b-ASD.git - danlff (has token)
+2020-06-19T13:18:01.558Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/AX-4/5is18b-ASD.git C:\Users\danie\Documents\GitHub\5is18b-ASD (took 5.407s)
+2020-06-19T13:18:01.796Z - info: [ui] [AppStore] adding repository at C:\Users\danie\Documents\GitHub\5is18b-ASD to store
+2020-06-19T13:18:02.590Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-19T13:18:03.477Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.041s)
+2020-06-19T13:23:11.719Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.274s)
+2020-06-19T13:26:15.051Z - info: [ui] Background fetch for 2 repositories took 1.900sec
+2020-06-19T13:26:25.680Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:26:30.279Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 3.979s)
+2020-06-19T13:33:46.086Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:33:48.559Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.200s)
+2020-06-19T13:33:51.907Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:33:54.666Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.220s)
+2020-06-19T13:35:03.025Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:35:05.370Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.054s)
+2020-06-19T13:35:58.322Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T13:35:58.647Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:36:01.081Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.166s)
+2020-06-19T13:37:57.470Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.146s)
+2020-06-19T13:37:59.179Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 5.316s
+2020-06-19T13:37:59.898Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:38:05.942Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.727s)
+2020-06-19T13:38:08.393Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.088s)
+2020-06-19T13:41:14.824Z - info: [ui] Background fetch for 2 repositories took 1.698sec
+2020-06-19T13:44:10.303Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:44:12.740Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.160s)
+2020-06-19T13:44:17.196Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:44:19.833Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.130s)
+2020-06-19T13:47:02.584Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 3.255s
+2020-06-19T13:47:02.943Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:47:05.203Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.985s)
+2020-06-19T13:47:05.217Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/AX-4/5is18b-ASD.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AX-4/5is18b-ASD.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-19T13:47:33.455Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:47:35.785Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.096s)
+2020-06-19T13:47:39.358Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:47:41.966Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.008s)
+2020-06-19T13:47:44.688Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:47:50.374Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.380s)
+2020-06-19T13:47:52.570Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.961s)
+2020-06-19T13:48:10.397Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:48:12.829Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.127s)
+2020-06-19T13:48:44.527Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:48:46.733Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.952s)
+2020-06-19T13:49:45.511Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:49:47.839Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.065s)
+2020-06-19T13:50:10.976Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:50:13.003Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.757s)
+2020-06-19T13:50:41.430Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:50:43.823Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.084s)
+2020-06-19T13:51:06.775Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:51:09.071Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.975s)
+2020-06-19T13:51:35.505Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:51:37.868Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.085s)
+2020-06-19T13:51:47.339Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:51:49.658Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.977s)
+2020-06-19T13:53:02.582Z - info: [ui] [Timing] Action 'create commit' for 'ax-4/5is18b-ASD' took 2.915s
+2020-06-19T13:53:10.002Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:53:16.103Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.819s)
+2020-06-19T13:53:18.557Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.156s)
+2020-06-19T13:53:21.435Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:53:23.598Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.867s)
+2020-06-19T13:53:37.327Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:53:39.609Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.993s)
+2020-06-19T13:54:32.100Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:54:34.387Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.018s)
+2020-06-19T13:56:10.058Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:56:12.467Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.119s)
+2020-06-19T13:56:14.908Z - info: [ui] Background fetch for 2 repositories took 1.761sec
+2020-06-19T13:59:33.013Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:59:35.295Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.039s)
+2020-06-19T13:59:38.261Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T13:59:40.965Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.121s)
+2020-06-19T14:00:54.017Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T14:00:56.539Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.259s)
+2020-06-19T14:00:59.368Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T14:01:02.003Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 2.100s)
+2020-06-19T14:01:30.020Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T14:01:32.286Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.960s)
+2020-06-19T14:02:33.159Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-19T14:02:35.387Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.957s)

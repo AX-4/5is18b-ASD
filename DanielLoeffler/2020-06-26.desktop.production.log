@@ -1,0 +1,142 @@
+2020-06-26T07:26:17.170Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T07:26:17.204Z - info: [ui] [AppStore] found account: danlff (danlff)
+2020-06-26T07:26:17.654Z - warn: [ui] fetchAccount: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+2020-06-26T07:26:17.655Z - warn: [ui] fetchUser: failed with endpoint https://api.github.com
+TypeError: Failed to fetch
+2020-06-26T07:26:17.655Z - warn: [ui] Error refreshing account 'danlff'
+TypeError: Failed to fetch
+2020-06-26T07:26:17.724Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+2020-06-26T07:26:17.859Z - warn: [ui] fetchMentionables: failed for ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:18.028Z - warn: [ui] fetchIssues: failed for repository ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:18.028Z - warn: [ui] Unable to fetch issues for ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:18.032Z - warn: [ui] fetchRepository: an error occurred for 'AX-4/5is18b-ASD'
+TypeError: Failed to fetch
+2020-06-26T07:26:18.397Z - info: [ui] launching: 2.5.2 (Windows 10.0.18362)
+2020-06-26T07:26:18.398Z - info: [ui] execPath: 'C:\Users\danie\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-26T07:26:18.579Z - error: [ui] Error reporting stats:
+TypeError: Failed to fetch
+2020-06-26T07:26:19.139Z - error: [ui] Error checking for updates
+Error: Command failed: 4294967295
+System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgel�st werden: 'central.github.com'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- Ende der internen Ausnahmestapel�berwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+   bei Squirrel.Update.Program.Main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgel�st werden: 'central.github.com'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapel�berwachung vom vorhergehenden Ort, an dem die Ausnahme ausgel�st wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+
+    at AutoUpdater.emitError (electron/js2c/browser_init.js:324:24)
+    at electron/js2c/browser_init.js:300:21
+    at electron/js2c/browser_init.js:431:14
+    at ChildProcess.<anonymous> (electron/js2c/browser_init.js:413:14)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+2020-06-26T07:26:20.014Z - warn: [ui] failed fetching open PRs for repository ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:20.014Z - error: [ui] Error refreshing pull requests for 'ax-4/5is18b-ASD'
+TypeError: Failed to fetch
+2020-06-26T07:26:30.289Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+TypeError: Failed to fetch
+2020-06-26T07:26:30.489Z - warn: [ui] fetchMentionables: failed for ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:30.490Z - warn: [ui] fetchRepository: an error occurred for 'AX-4/5is18b-ASD'
+TypeError: Failed to fetch
+2020-06-26T07:26:30.525Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T07:26:30.527Z - warn: [ui] fetchIssues: failed for repository ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:30.528Z - warn: [ui] Unable to fetch issues for ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:26:31.233Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AX-4/5is18b-ASD.git/': Could not resolve host: github.com
+
+2020-06-26T07:26:31.483Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-26T07:26:32.387Z - warn: [ui] getFetchPollInterval: failed for ax-4/5is18b-ASD
+TypeError: Failed to fetch
+2020-06-26T07:28:18.011Z - warn: [ui] fetchRepository: an error occurred for 'danlff/5is18b-DanielLoeffler'
+TypeError: Failed to fetch
+2020-06-26T07:28:18.015Z - warn: [ui] fetchRepository: an error occurred for 'danlff/5is18b-DanielLoeffler'
+TypeError: Failed to fetch
+2020-06-26T07:28:18.017Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-DanielLoeffler - danlff (has token)
+2020-06-26T07:28:18.499Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/danlff/5is18b-DanielLoeffler.git/': Could not resolve host: github.com
+
+2020-06-26T07:28:18.716Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-26T07:28:20.195Z - warn: [ui] fetchRepository: an error occurred for 'AX-4/5is18b-ASD'
+TypeError: Failed to fetch
+2020-06-26T07:28:20.200Z - warn: [ui] fetchRepository: an error occurred for 'ax-4/5is18b-ASD'
+TypeError: Failed to fetch
+2020-06-26T07:28:20.202Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ASD - danlff (has token)
+2020-06-26T07:28:20.751Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/AX-4/5is18b-ASD.git/': Could not resolve host: github.com
+
+2020-06-26T07:28:20.887Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-26T07:28:21.905Z - info: [ui] Background fetch for 2 repositories took 4.514sec
+2020-06-26T12:13:59.631Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T12:13:59.633Z - info: [ui] [AppStore] found account: danlff (danlff)
+2020-06-26T12:14:00.174Z - info: [ui] [BranchPruner] Last prune took place in 19 hours - skipping
+2020-06-26T12:14:00.788Z - info: [ui] launching: 2.5.2 (Windows 10.0.18362)
+2020-06-26T12:14:00.788Z - info: [ui] execPath: 'C:\Users\danie\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-26T12:14:02.602Z - info: [ui] Stats reported.
+2020-06-26T12:14:22.298Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 17.657s)
